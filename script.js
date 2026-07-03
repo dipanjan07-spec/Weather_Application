@@ -58,7 +58,7 @@ function SubmitData() {
     document.getElementById("coords").textContent = "";
     document.getElementById("weather").textContent = "";
     document.getElementById("country_code").textContent = "";
-
+    document.getElementById("population").textContent = "";
     city_name = capitalizeFirstLetter(document.getElementById("city").value);
     GetCoords(city_name);
 }
